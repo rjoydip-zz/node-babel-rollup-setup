@@ -4,7 +4,7 @@ import resolve from 'rollup-plugin-node-resolve'
 import pkg from './package.json'
 
 export default {
-  input: 'src/index.jsx',
+  input: 'src/index.js',
   output: [{
     file: pkg.main,
     format: 'cjs',

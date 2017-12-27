@@ -1,35 +1,30 @@
 {
-  "name": "node-babel-rollup-stater",
+  "name": "node-babel-rollup-setup",
   "version": "1.0.0",
-  "description": "Babel rollup node stater",
+  "description": "Node Babel rollup setup",
   "main": "dist/index.js",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
   },
   "scripts": {
-    "start": "cross-env NODE_ENV=production npm run node:watch && npm run watch",
     "build": "rollup -c",
     "watch": "rollup -c -w",
-    "node:watch": "./node_modules/.bin/nodemon NODE_ENV=production example.jsx",
-    "lint": "./node_modules/.bin/eslint **/*.jsx --ignore-path .gitignore",
-    "test": "cross-env NODE_ENV=development jest"
+    "node:watch": "./node_modules/.bin/nodemon example.js",
+    "lint": "./node_modules/.bin/eslint **/*.js --ignore-path .gitignore",
+    "test": "./node_modules/.bin/jest"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.5",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "cross-env": "^5.2.0",
     "eslint": "^5.0.1",
     "eslint-config-standard": "^12.0.0",
-    "eslint-config-standard-react": "^6.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-react": "^7.10.0",
     "eslint-plugin-standard": "^3.1.0",
     "jest": "^23.5.0",
     "nodemon": "^1.18.4",

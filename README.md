@@ -1,9 +1,9 @@
-# node-babel-rollup-stater 
+# node-babel-rollup-setup 
 
-[![Build Status](https://travis-ci.org/rjoydip/node-babel-rollup-starter.svg?branch=master)](https://travis-ci.org/rjoydip/node-babel-rollup-starter)
+[![Build Status](https://travis-ci.org/rjoydip/node-babel-rollup-setup.svg?branch=master)](https://travis-ci.org/rjoydip/node-babel-rollup-setup)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://img.shields.io/badge/license-MIT-blue.svg)
 
-> Babel rollup node stater
+> Node Babel rollup setup
 
 ## Features
 
@@ -17,9 +17,11 @@
 ## Installation
 
 ```sh
-$ git clone https://github.com/rjoydip/node-babel-rollup-stater.git
+$ git clone https://github.com/rjoydip/node-babel-rollup-setup.git
 $ cd node-babel-rollup-stater
-$ npm start
+$ npm run watch // rollup watch mode
+$ npm run build // rollup build 
+$ npm run node:watch // nodemon watch
 ```
 
 ## Test

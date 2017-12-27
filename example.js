@@ -1,3 +1,3 @@
 const app = require('./dist')
 
-app.render()
+console.log(app.hello())
