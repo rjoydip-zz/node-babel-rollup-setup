@@ -18,7 +18,7 @@
 
 ```sh
 $ git clone https://github.com/rjoydip/node-babel-rollup-setup.git
-$ cd node-babel-rollup-stater
+$ cd node-babel-rollup-setup
 $ npm run watch // rollup watch mode
 $ npm run build // rollup build 
 $ npm run node:watch // nodemon watch
