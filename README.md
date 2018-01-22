@@ -1,6 +1,6 @@
 # node-babel-rollup-stater 
 
-[![Build Status](https://travis-ci.org/Joydip%20Roy/node-babel-rollup-stater.svg?branch=master)](https://travis-ci.org/Joydip%20Roy/node-babel-rollup-stater)
+[![Build Status](https://travis-ci.org/rjoydip/node-babel-rollup-starter.svg?branch=master)](https://travis-ci.org/rjoydip/node-babel-rollup-starter)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://img.shields.io/badge/license-MIT-blue.svg)
 
 > Babel rollup node stater
