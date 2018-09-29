@@ -11,7 +11,7 @@
     "build": "rollup -c",
     "watch": "rollup -c -w",
     "node:watch": "./node_modules/.bin/nodemon example.js",
-    "lint": "./node_modules/.bin/eslint **/*.js --ignore-path .eslintignore",
+    "lint": "./node_modules/.bin/eslint **/src/*.js --ignore-path .eslintignore",
     "test": "./node_modules/.bin/jest"
   },
   "devDependencies": {
